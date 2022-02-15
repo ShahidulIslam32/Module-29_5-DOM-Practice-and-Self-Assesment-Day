@@ -1,0 +1,20 @@
+#latest-items{
+    float: left;
+    margin: 28px;
+    height: 280px;
+    margin-top: 40px;
+    padding: 25px;
+}
+#input-items{
+    height: 280px;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+input[type=number]{
+    width: 70px;
+    padding: 10px;
+}
+.bg-white{
+    height: 800px;
+}
