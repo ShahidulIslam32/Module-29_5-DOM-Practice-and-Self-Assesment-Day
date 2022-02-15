@@ -14,4 +14,19 @@ let addNew = document.getElementById('add-new').addEventListener('click', functi
 
 // input value 
 
+function updateCase(isincrease){
+    let updateText = document.getElementById('user-count')
+    let changeValue = updateText.value
+    
+    if(isincrease == true){
+        updateText.value = parseFloat(changeValue) + 1
+    }
+}
+
+document.getElementById('add-number').addEventListener('click', function () {  
+    updateCase(true)
+    
+})
+
+
 
