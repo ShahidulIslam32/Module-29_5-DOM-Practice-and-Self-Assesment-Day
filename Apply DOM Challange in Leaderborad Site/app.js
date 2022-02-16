@@ -17,13 +17,18 @@ let addNew = document.getElementById('add-new').addEventListener('click', functi
 function updateCase(isincrease){
     let updateText = document.getElementById('user-count')
     let changeValue = updateText.value
-    
-    if(isincrease == true){
-        updateText.value = parseFloat(changeValue) + 1
+    updateText.value = parseFloat(changeValue) + 1
+    if (changeValue == 5-1) {
+        let button = document.getElementById('add-number')
+        alert('Maximum 05 !!')
+        button.setAttribute("disabled", "");
+        updateText.setAttribute("disabled", "");
+        
     }
+    
 }
 
-document.getElementById('add-number').addEventListener('click', function () {  
+document.getElementById('add-number').addEventListener('click', function (event) { 
     updateCase(true)
     
 })
