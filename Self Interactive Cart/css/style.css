@@ -4,3 +4,37 @@ body{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
+.header-text{
+    margin-top: 50px;
+}
+.one::after{
+    content: "";
+    display: block;
+    margin:23px auto;
+    width: 300px;
+    height: 2px;
+    background-color: gold;
+}
+.two::after{
+    content: "";
+    display: block;
+    margin:-17px auto;
+    width: 250px;
+    height: 2px;
+    background-color:cadetblue;
+}
+/* products */
+
+.product-wrapper{
+    margin-top:70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+.col-md-4{
+    margin-bottom: 32px;
+    
+}
+.card img{
+    height: 250px;
+}
