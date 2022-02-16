@@ -23,3 +23,44 @@ body{
     height: 2px;
     background-color:cadetblue;
 }
+.card{
+    margin-top:40px;
+    padding: 20px;
+}
+.wrapper{
+    display: flex;
+    width: 720px;
+    float: left;
+}
+.wrapper h5{
+    margin-left:75px;
+    margin-top:40px;
+
+}
+
+.wrapper img{
+    width:150px;
+    border-radius: 8px;
+}
+.wrapperTwo{
+    text-align: center;
+    padding:3px;
+
+}
+.admin h5{
+    margin-left:852px;
+    width: 120px;
+    margin-top: 20px
+}
+.status{
+    margin-left:71px;
+}
+.cart-item{
+    margin-top: 20px;
+    width: 960px;
+    margin: 25px auto;
+}
+.BTn{
+    margin-left: 73px;
+    margin-top: -30px;
+}
